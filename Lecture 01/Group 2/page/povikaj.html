@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Povikaj</title>
+    <script>
+        var s = 'kristijan'
+        function prva() {
+            const weko = {
+            name: "Wekoslav",
+            lastname: "Stefanovski",
+            city: "Skopje",
+            age: 47
+        }
+        weko.name
+        weko.lastname
+        weko.city
+        weko.age
+        console.log(weko)
+        document.getElementById("output").innerHTML = weko.name + ' ' + weko.lastname + ' ' + weko.city + ' ' + weko.age
+        }
+        function capitalize(s) {
+            if (!s) {
+                return "";
+            }
+            document.getElementById("capl").innerHTML = s[0].toUpperCase() + s.slice(1).toLowerCase();
+        }
+        function add(x, y) {
+            document.getElementById("soberi").innerHTML = x + y
+        }
+        function uppercase(str, ret) {
+            var s1 = document.getElementById(str).value;
+            document.getElementById(ret).innerHTML = s1.toUpperCase();
+        }
+        function concatenate(x, y) {
+            document.getElementById('spoj').innerHTML = x + `${x} ${y}`
+        }
+        function lowercase(str, ret) {
+            var s2 = document.getElementById(str).value;
+            document.getElementById(ret).innerHTML = s2.toLowerCase();
+        }
+        function cetvrtta() {
+            const weko = {
+            name: "Wekoslav",
+            lastname: "Stefanovski",
+            city: "Skopje",
+            age: 47,
+            isProgrammer: true
+        }
+        weko.name
+        weko.lastname
+        weko.city
+        weko.age
+        weko.isProgrammer
+        console.log(weko)
+        document.getElementById("output-1").innerHTML = weko.name + ' ' + weko.lastname + ' ' + weko.city + ' ' + weko.age + ' ' + weko.isProgrammer
+        }
+        function mul(x, y) {
+            document.getElementById("mnozi").innerHTML = x * y
+        }
+        function niza() {
+            const array = []
+            array.push('Banana', 'Apple', 'Peach')
+            console.log(array)
+            document.getElementById('nz').innerHTML = array
+        }
+        function sub(x, y) {
+            document.getElementById("odzemi").innerHTML = x - y
+        }
+        function div(x, y) {
+            document.getElementById("deli").innerHTML = x / y
+        }
+    </script>   
+</head>
+<body>
+    <button onclick="prva()">Prva</button>
+    <p id="output"></p>
+    <button onclick="capitalize('Palacinka so nutela i banana')">Capitalize</button>
+    <p id="capl"></p>
+    <button onclick="add(3, 4)">Sobira</button>
+    <p id="soberi"></p>
+    <button onclick="concatenate(6,3)">concatenate</button>
+    <p id="spoj"></p>
+    <button onclick="cetvrtta()">cetvrtta</button>
+    <p id="output-1"></p>
+    <button onclick="mul(4, 8)">mul</button>
+    <p id="mnozi"></p>
+    <h1>Vnesi Zbor</h1>
+    <input type="text" id="s1" placeholder="text">
+    <button onclick="uppercase('s1', 'upp1')">Submit</button>
+    <p id="upp1"></p>
+    <input type="text" id="s2" placeholder="text">
+    <button onclick="lowercase('s2', 'low1')">Submit</button>
+    <p id="low1"></p>
+    <button onclick="niza()">array</button>
+    <p id="nz"></p>
+    <button onclick="sub(5, 2)">odzemi</button>
+    <p id="odzemi"></p>
+    <button onclick="div(12, 2)">deli</button>
+    <p id="deli"></p>
+</body>
+</html>

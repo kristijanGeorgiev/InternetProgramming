@@ -1,0 +1,6 @@
+function uppercase(s) {
+    return s.toUpperCase();
+}
+let s1 = "kristijan";
+let upper = uppercase(s1);
+console.log(upper);
