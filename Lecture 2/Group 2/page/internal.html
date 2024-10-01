@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substraction</title>
+</head>
+<body>
+    <button id="sub">Odzemi</button>
+    <script>
+        const sub = () => {
+            console.log('You substracted numbers');
+        };
+        document.addEventListener('DOMContentLoaded',()=> {
+            console.log('Substraction is calculated')
+        });
+        const button = document.getElementById('sub');
+        button.addEventListener('click', sub);
+    </script>
+</body>
+</html>
