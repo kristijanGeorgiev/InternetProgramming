@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="interactive-element">
+            <h1 id="h1-text">H1 text</h1>
+            <input type="text" id="h1-new" placeholder="Vnesi tekst">
+            <button id="change-text-btn">Smeni tekst</button>
+            <button id="change-color-btn">Smeni boja na H1</button>
+            <button id="change-background-color-btn">Smeni boja na pozadina na H1</button>
+        </div>
+        <div class="interactive-element">
+            <h2 id="h2-text">H2 text</h2>
+            <input type="text" id="h2-new" placeholder="Vnesi tekst">
+            <button id="change-h2-text-btn">Smeni tekst</button>
+            <button id="change-h2-color-btn">Smeni boja na H2</button>
+            <button id="change-background-color-h2-btn">Smeni boja na pozadina na H2</button>
+        </div>
+        <div class="interactive-element">
+            <p id="p-text">paragraph text</p>
+            <input type="text" id="p-new" placeholder="Vnesi paragraph">
+            <button id="change-p-text-btn">Smeni tekst</button>
+            <button id="change-p-color-btn">Smeni boja na paragraph</button>
+            <button id="change-background-color-p-btn">Smeni boja na pozadina na paragraph</button>
+        </div>
+        <div class="interactive-element">
+            <h2>Promena na atribut</h2>
+            <input type="text" id="input-field" value="Initial value">
+            <button id="disable-input-btn">Iskluci vnes</button>
+            <button id="enable-input-btn">Vkluci vnes</button>
+        </div>
+        
+        <div class="interactive-element">
+            <h2>Kreiranje element</h2>
+            <ol id="list-container"></ol>
+            <button id="add-item-btn">Dodaj vo lista</button>
+        </div>
+        
+        <div class="interactive-element swap-image">
+            <h2>Zameni slika (vkupno 20000 pikseli)</h2>
+            <div id="image-container">
+                <img src="https://placehold.co/200x100" alt="Placeholder Image" id="swappable-image">
+            </div>
+            <input type="number" id="image-width" placeholder="Width" min="100" max="1000">
+            <input type="number" id="image-height" placeholder="Height" min="100" max="1000">
+            <button id="swap-image-btn">Smeni slika</button>
+        </div>
+    </div>
+</body>
+</html>
