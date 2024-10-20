@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2017",         // Sets the ECMAScript version to target ES2017
+    "lib": ["es2017", "dom"],   // Includes ES2017 library and DOM for browser APIs
+    "module": "commonjs",       // Module system, can also be "es6" or "esnext"
+    "strict": true,             // Enables all strict type-checking options
+    "esModuleInterop": true,    // Ensures compatibility between CommonJS and ES modules
+  },
+}
