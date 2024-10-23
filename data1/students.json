@@ -1,0 +1,136 @@
+[
+    {
+        "id": 1,
+        "name": "Kristijan",
+        "surname": "Georgiev",
+        "email": "kristijan.georg@gmail.com",
+        "bibliography": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Nadica",
+        "surname": "Naumova",
+        "email": "nadica.naumova@gmail.com",
+        "bibliography": [
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Kristina",
+        "surname": "Avramovska",
+        "email": "kristina.avramovska@gmail.com",
+        "bibliography": [
+            {
+                "name": "Multimedia",
+                "nationality": "Macedonia",
+                "grade": "B-"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ljupka",
+        "surname": "Kostadinova",
+        "email": "ljupka.kostadinova@gmail.com",
+        "bibliography": [
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Slodobanka",
+        "surname": "Lozanovska",
+        "email": "slobodanka.lozanovska@gmail.com",
+        "nationality": "America",
+        "bibliography": [
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Angela",
+        "surname": "Krstevska",
+        "email": "angela.krstevska@gmail.com",
+        "bibliography": [
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Nada",
+        "surname": "Chokova",
+        "email": "nada.chokova@gmail.com",
+        "nationality": "Serbia",
+        "bibliography": [
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Matea",
+        "surname": "Mitrovska",
+        "email": "matea.mitrovska@gmail.com",
+        "nationality": "Serbia",
+        "bibliography": [
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Kristina",
+        "surname": "Angelevska",
+        "email": "kristina.angelevska@gmail.com",
+        "nationality": "Serbia",
+        "bibliography": [
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Anastasija",
+        "surname": "Smilkovska",
+        "email": "anastasija.smilkovska@gmail.com",
+        "nationality": "Serbia",
+        "bibliography": [
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    }
+]
