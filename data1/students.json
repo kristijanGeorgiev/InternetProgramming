@@ -1,0 +1,527 @@
+[
+    {
+        "id": 1,
+        "name": "Kristijan",
+        "surname": "Georgiev",
+        "email": "kristijan.georg@gmail.com",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Nadica",
+        "surname": "Naumova",
+        "email": "nadica.naumova@gmail.com",
+        "Subject": [
+            {
+                "name": "Software Engineering",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Calculus",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Kristina",
+        "surname": "Avramovska",
+        "email": "kristina.avramovska@gmail.com",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ljupka",
+        "surname": "Kostadinova",
+        "email": "ljupka.kostadinova@gmail.com",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Slodobanka",
+        "surname": "Lozanovska",
+        "email": "slobodanka.lozanovska@gmail.com",
+        "nationality": "America",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Angela",
+        "surname": "Krstevska",
+        "email": "angela.krstevska@gmail.com",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Nada",
+        "surname": "Chokova",
+        "email": "nada.chokova@gmail.com",
+        "nationality": "Serbia",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Matea",
+        "surname": "Mitrovska",
+        "email": "matea.mitrovska@gmail.com",
+        "nationality": "Serbia",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Kristina",
+        "surname": "Angelevska",
+        "email": "kristina.angelevska@gmail.com",
+        "nationality": "Serbia",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Anastasija",
+        "surname": "Smilkovska",
+        "email": "anastasija.smilkovska@gmail.com",
+        "nationality": "Serbia",
+        "Subject": [
+            {
+                "name": "System Software",
+                "nationality": "Macedonia",
+                "grade": "D"
+            },
+            {
+                "name": "Databases",
+                "nationality": "Macedonia",
+                "grade": "C+"
+            },
+            {
+                "name": "Network Technologies",
+                "nationality": "America",
+                "grade": "C"
+            },
+            {
+                "name": "Architecture",
+                "grade": "D-"
+            },
+            {
+                "name": "Networks",
+                "nationality": "America",
+                "grade": "A"
+            },
+            {
+                "name": "Computer Interface and Programming",
+                "nationality": "Serbia",
+                "grade": "F"
+            },
+            {
+                "name": "Algorithms",
+                "nationality": "Serbia",
+                "grade": "D+"
+            },
+            {
+                "name": "Programming",
+                "nationality": "Serbia",
+                "grade": "C-"
+            },
+            {
+                "name": "Computer Applications",
+                "nationality": "Serbia",
+                "grade": "A-"
+            }
+        ]
+    }
+]
