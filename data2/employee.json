@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "name": "Kristijan",
+        "surname": "Georgiev",
+        "email": "kgeorg@gmail.com",
+        "office": "Karpos",
+        "WorkHistory": [
+            {
+                "company": "Telekom",
+                "fromyear": "2025",
+                "toyear": "2030"
+            },
+            {
+                "company": "EVN",
+                "fromyear": "2020",
+                "toyear": "2024"
+            }
+            
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Nadica",
+        "surname": "Naumova",
+        "email": "nnaumova@gmail.com",
+        "office": "Kisela Voda",
+        "Subject": [
+            {
+                "company": "JSP",
+                "fromyear": "2026",
+                "toyear": "2035"
+            },
+            {
+                "company": "Kosmofon",
+                "fromyear": "2040",
+                "toyear": "2048"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ljupka",
+        "surname": "Kostadinova",
+        "email": "lkostadinova@gmail.com",
+        "office": "Karpos",
+        "Subject": [
+            {
+                "company": "Kosmofon",
+                "fromyear": "2039",
+                "toyear": "2048"
+            },
+            {
+                "company": "Telekom",
+                "fromyear": "2023",
+                "toyear": "2034"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Slodobanka",
+        "surname": "Lozanovska",
+        "email": "slozanovska@gmail.com",
+        "office": "Kisela Voda",
+        "Subject": [
+            {
+                "company": "Telekom",
+                "fromyear": "2021",
+                "toyear": "2027"
+            },
+            {
+                "company": "Kosmofon",
+                "fromyear": "2023",
+                "toyear": "2038"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Angela",
+        "surname": "Krstevska",
+        "email": "akrstevska@gmail.com",
+        "office": "Karpos",
+        "Subject": [
+            {
+                "company": "JSP",
+                "fromyear": "2023",
+                "toyear": "2035"
+            },
+            {
+                "company": "Telekom",
+                "fromyear": "2027",
+                "toyear": "2036"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Nada",
+        "surname": "Chokova",
+        "email": "nchokova@gmail.com",
+        "office": "Kisela Voda",
+        "Subject": [
+            {
+                "company": "Kosmofon",
+                "fromyear": "2027",
+                "toyear": "2033"
+            },
+            {
+                "company": "Telekom",
+                "fromyear": "2038",
+                "toyear": "2045"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Matea",
+        "surname": "Mitrovska",
+        "email": "mmitrovska@gmail.com",
+        "office": "Karpos",
+        "Subject": [
+            {
+                "company": "Telekom",
+                "fromyear": "2029",
+                "toyear": "2042"
+            },
+            {
+                "company": "JSP",
+                "fromyear": "2026",
+                "toyear": "2033"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Kristina",
+        "surname": "Angelevska",
+        "email": "kangelevska@gmail.com",
+        "office": "Kisela Voda",
+        "Subject": [
+            {
+                "company": "Telekom",
+                "fromyear": "2027",
+                "toyear": "2034"
+            },
+            {
+                "company": "Kosmofon",
+                "fromyear": "2025",
+                "toyear": "2030"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Anastasija",
+        "surname": "Smilkovska",
+        "email": "asmilkovska@gmail.com",
+        "office": "Karpos",
+        "Subject": [
+            {
+                "company": "Telekom",
+                "fromyear": "2035",
+                "toyear": "2049"
+            },
+            {
+                "company": "Kosmofon",
+                "fromyear": "2030",
+                "toyear": "2046"
+            }
+        ]
+    }
+]
