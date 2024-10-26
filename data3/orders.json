@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "customer": "Svetlana",
+        "totalprice": "300",
+        "OrderDetails": [
+            {
+                "Product": "Milk",
+                "Quantity": "4",
+                "Price": "120"
+            },
+            {
+                "Product": "Cheese",
+                "Quantity": "5",
+                "Price": "100"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "customer": "Zoran",
+        "totalprice": "484",
+        "OrderDetails": [
+            {
+                "Product": "Spinach",
+                "Quantity": "3",
+                "Price": "100"
+            },
+            {
+                "Product": "Yogurt",
+                "Quantity": "1",
+                "Price": "190"
+            },
+            {
+                "Product": "Biscuits",
+                "Quantity": "5",
+                "Price": "150"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "customer": "Veneta",
+        "totalprice": "200",
+        "OrderDetails": [
+            {
+                "Product": "Carrot",
+                "Quantity": "2",
+                "Price": "145"
+            },
+            {
+                "Product": "Baggage",
+                "Quantity": "5",
+                "Price": "100"
+            },
+            {
+                "Product": "Eggplants",
+                "Quantity": "8",
+                "Price": "120"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "customer": "Eli",
+        "totalprice": "200",
+        "OrderDetails": [
+            {
+                "Product": "Eggs",
+                "Quantity": "1",
+                "Price": "270"
+            },
+            {
+                "Product": "Tomato",
+                "Quantity": "4",
+                "Price": "130"
+            },
+            {
+                "Product": "Peppers",
+                "Quantity": "3",
+                "Price": "170"
+            }
+        ]
+    }
+]
