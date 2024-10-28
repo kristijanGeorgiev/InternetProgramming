@@ -1,0 +1,53 @@
+"use strict";
+var _a;
+const API_URL = "https://api.currencyfreaks.com/latest?apikey=5693e5e7716e4bc1b5e05765a64ed237";
+async function loadData() {
+    {
+        const response = await fetch(API_URL);
+        const data = await response.json();
+        return data;
+    }
+}
+async function generateCurrencyList() {
+    const data = await loadData();
+    if (data) {
+        const currencyKeys = Object.keys(data.rates);
+        const fromCurrencySelect = document.getElementById("from-currency");
+        const toCurrencySelect = document.getElementById("to-currency");
+        currencyKeys.forEach(currency => {
+            const option1 = document.createElement("option");
+            option1.value = currency;
+            option1.text = currency;
+            fromCurrencySelect.appendChild(option1);
+            const option2 = document.createElement("option");
+            option2.value = currency;
+            option2.text = currency;
+            toCurrencySelect.appendChild(option2);
+        });
+    }
+}
+async function calculate() {
+    const amountInput = document.getElementById("amount");
+    const fromCurrencySelect = document.getElementById("from-currency");
+    const toCurrencySelect = document.getElementById("to-currency");
+    const resultDiv = document.getElementById("result");
+    const amount = parseFloat(amountInput.value);
+    const fromCurrency = fromCurrencySelect.value;
+    const toCurrency = toCurrencySelect.value;
+    if (isNaN(amount) || amount <= 0) {
+        resultDiv.textContent = "Please enter a valid amount.";
+        return;
+    }
+    const data = await loadData();
+    if (data && data.rates[fromCurrency] && data.rates[toCurrency]) {
+        const fromRate = data.rates[fromCurrency];
+        const toRate = data.rates[toCurrency];
+        const convertedAmount = (amount / fromRate) * toRate;
+        resultDiv.textContent = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)} ${toCurrency}`;
+    }
+    else {
+        resultDiv.textContent = "Unable to retrieve conversion rate.";
+    }
+}
+(_a = document.getElementById("convert-btn")) === null || _a === void 0 ? void 0 : _a.addEventListener("click", calculate);
+window.onload = generateCurrencyList;
