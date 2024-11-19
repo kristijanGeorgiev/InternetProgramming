@@ -1,0 +1,20 @@
+<main class="main">
+  <div class="content">
+    <div class="left-side">
+      <h1>Hello, {{ title }}</h1>
+      <p>Congratulations! Your app is running. 🎉</p>
+    </div>
+  </div>
+</main>
+<div>
+  <!-- <div *ngFor="let episode of data">
+    <app-episode-details></app-episode-details>
+  </div> -->
+  <!-- @for (episode of data; track $index) {
+    <app-episode-details [episode]="episode"></app-episode-details>
+  } -->
+  <app-episode-filter></app-episode-filter>
+
+  <app-episode-list [episodes]="data"></app-episode-list>
+
+</div>
