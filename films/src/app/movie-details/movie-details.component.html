@@ -1,0 +1,11 @@
+<div class="movie-row">
+  <div class="movie-cell">{{ movie.id }}</div>
+  <div class="movie-cell">{{ movie.title }}</div>
+  <div class="movie-cell">{{ movie.year }}</div>
+  <div class="movie-cell">{{ movie.director }}</div>
+  <div class="movie-cell">{{ movie.genre.join(', ') }}</div>
+  <div class="movie-cell plot-preview">{{ movie.plot}}</div>
+  <div class="movie-cell">{{ movie.oscars }}</div>
+  <div class="movie-cell">{{ movie.rating }}</div>
+  <div class="movie-cell">{{ movie.cast.length }}</div>
+</div>

@@ -1,0 +1,17 @@
+<div class="movies-list">
+    <div class="movies-header">
+      <div class="header-cell" (click)="sortByID()">ID</div>
+      <div class="header-cell" (click)="sortByTitle()">Title</div>
+      <div class="header-cell" data-sort="year">Year</div>
+      <div class="header-cell" data-sort="director">Director</div>
+      <div class="header-cell" data-sort="genre">Genre</div>
+      <div class="header-cell" data-sort="plot">Plot</div>
+      <div class="header-cell" data-sort="oscars">Oscars</div>
+      <div class="header-cell" data-sort="rating">Rating</div>
+      <div class="header-cell" data-sort="cast">Cast</div> 
+    </div>
+  
+    @for (movie of movies; track $index) {
+      <app-movie-details [movie]="movie"></app-movie-details>
+    }
+  </div>
