@@ -1,0 +1,19 @@
+<div class="episodes-list">
+  <div class="episodes-header">
+    <div class="header-cell" (click)="sortByRank()">Rank</div>
+    <div class="header-cell" (click)="sortByName()">Name</div>
+    <div class="header-cell" (click)="sortByBroadCastYear()">BroadCastYear</div>
+    <div class="header-cell" data-sort="series">Series</div>
+    <div class="header-cell" data-sort="era">Era</div>
+    <div class="header-cell" data-sort="director">Director</div>
+    <div class="header-cell" data-sort="writer">Writer</div>
+    <div class="header-cell" data-sort="doctor">Doctor</div>
+    <div class="header-cell" data-sort="companion">Companion</div>
+    <div class="header-cell" data-sort="cast">Cast</div>
+    <div class="header-cell" data-sort="plot">Plot</div>
+  </div>
+
+  @for (episode of episodes; track $index) {
+    <app-episode-details [episode]="episode"></app-episode-details>
+  }
+</div>
