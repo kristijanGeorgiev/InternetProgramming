@@ -1,0 +1,11 @@
+<div class="container">
+  <h1 [appHighlight]="isTitleHighlighed" appHighlightColor="yellow">My Todo List</h1>
+
+  <button (click)="toggleTitleHighlight()">Toggle Highlight</button>
+  
+  <app-todo-input (createTodo)="createTodo($event)"></app-todo-input>
+  <app-todo-list [todos]="data" (deleteTodo)="deleteTodo($event)"></app-todo-list>
+
+  {{ data | json }}
+
+</div>

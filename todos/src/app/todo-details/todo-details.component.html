@@ -1,0 +1,5 @@
+<li class="todo-item">
+    <input type="checkbox" class="todo-checkbox" id="todo-item" [(ngModel)]="todo.completed">
+    <label for="todo-item" [ngClass]="getClasses()">{{ todo.title | titleCase }}</label>
+    <button class="delete-button" (click)="doDeleteTodo()">Delete</button>
+</li>

@@ -1,0 +1,9 @@
+<ul class="todo-list">
+    @for (todd of todos; track $index) {
+        <app-todo-details [todo]="todd" (deleteTodo)="doDeleteTodo($event)"></app-todo-details>
+    }
+</ul>
+
+<div *appTooMuch="todos.length">
+    <span>Dude, you have too much to do</span>
+</div>
